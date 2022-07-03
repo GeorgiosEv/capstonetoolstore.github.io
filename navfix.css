@@ -1,0 +1,91 @@
+/* Changes to this document will result in changes to every page of the website! */
+
+body {
+	margin: 0;
+	background: #F0F0F0;
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: 300;
+}
+
+.contact {
+	height: 5vh;
+}
+
+a[href^="mailto"] {
+	margin-left: 122px;
+	margin-right: 40px;
+	color: #FF5912;
+	text-decoration: none;
+	font-weight: 400;
+}
+
+a[href^="tel"] {
+	margin-right: 40px;
+	color: #FF5912;
+	text-decoration: none;
+	font-weight: 400;
+}
+
+.container {
+	width: 80%;
+	margin: 0 auto;
+}
+
+header {
+	background: #FFFFFF;
+}
+
+header::after {
+	content: '';
+	display: table;
+	clear: both;
+}
+
+.logo {
+	float: left;
+	padding: 10px 10px;
+}
+
+nav {
+	float: right;
+}
+
+nav ul {
+	list-style: none;
+}
+
+nav li {
+	margin-right: 40px;
+	margin-left: 10px;
+	padding-top: 55px;
+	display: inline-block;
+}
+
+nav a {
+	color: #3C4751;
+	text-decoration: none;
+	text-transform: capitalize;
+}
+
+nav a:hover {
+	color: #FF5912;
+}
+
+.sale {
+	display: block;
+	margin-left: auto;
+	margin-right: none;
+	margin-top: none;
+	width: 100%;
+
+}
+
+.minilogo {
+	padding: 10px 10px
+}
+
+footer {
+	background: #FFFFFF;
+	color: #3C4751;
+	text-align: center;
+}

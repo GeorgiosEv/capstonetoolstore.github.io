@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Contact</title>
+	<meta charset="utf-8">
+	<link href="navfix.css" rel="stylesheet" type="text/css">
+	<link rel="shortcut icon" href="Images/favicon.png" type="image/x-icon">
+	<!-- This is the styling for individual parts of THIS page-->
+	<style>
+
+		img.one {
+			display: block;
+			margin-left: auto;
+			margin-right: none;
+			margin-top: none;
+			width: 100%;
+			opacity: 0.9;
+		}
+
+		h2 {
+			color: #FF5912;
+			font-size: 40px;
+			font-weight: 800;
+			text-align: center;
+		}
+
+		h4 {
+			color: #3C4751;
+			font-size: 20px;
+			font-weight: 500;
+			text-align: center;
+		}
+
+		.boxed {
+			background: #FFFFFF;
+			margin-left: 200px;
+			margin-right: 200px;
+			padding: 40px 40px 10px 40px;
+			text-align: center;
+			color: #3C4751;
+			font-weight: 800;
+		}
+
+		h3 {
+			color: #3C4751;
+			text-align: center;
+			font-size: 30px;
+			font-weight: 600;
+		}
+
+
+
+		input[type=text], select, textarea {
+			  width: 100%; /* Full width */
+			  padding: 12px; /* Some padding */
+			  border: 1px solid #ccc; /* Gray border */
+			  border-radius: 4px; /* Rounded borders */
+			  box-sizing: border-box; /* Make sure that padding and width stays in place */
+			  margin-top: 6px; /* Add a top margin */
+			  margin-bottom: 16px; /* Bottom margin */
+			  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+			  color: #FFFFFF;
+			  font-family: 'Ubuntu', sans-serif;
+		}
+
+
+		input[type=submit] {
+			  background-color: #3C4751;
+			  color: white;
+			  padding: 12px 20px;
+			  border: none;
+			  border-radius: 4px;
+			  cursor: pointer;
+		}
+
+
+		.form {
+			  border-radius: 5px;
+			  background-color: #FF5912;
+			  padding: 20px;
+			  margin-left: 200px;
+			  margin-right: 200px;
+			  margin-bottom: 100px;
+		}
+
+	</style>
+
+</head>
+
+<body>
+
+	<!-- In order to amend styling (font colour, etc.) go to CSS file;
+		change page names, email address and phone number here-->
+
+	<header>
+		<div class="contact">
+			<a href="mailto:info@captstone.com">info@capstone.com</a>
+			<a href="tel:01617282728">01617282728</a>
+		</div>
+		<div class="container">
+
+			<a href="index.html"><img src="Images/logo.png" alt="logo" class="logo"></a>
+
+			<nav>
+				<ul>
+					<li><a href="index.html">Home</a></li>
+					<li><a href="products.html">Products</a></li>
+					<li><a href="about.html">About</a></li>
+					<li><a href="meetTheTeam.html">The Team</a></li>
+					<li><a href="contact.html">Contact</a></li>
+				</ul>
+
+		</div>
+	</header>
+
+	<main>
+		<<!-- This is the contact us photo-->
+		<img class="one" src="Images/contact.png" alt="Contact">
+		<h2>Contact Us</h2>
+		<h4>24/7 Support</h4>
+
+
+		</div>
+	</main>
+		<div class="boxed">
+			<!-- Edit text below to change 'contact us' message-->
+			Our fully trained staff are here to assist with any query you
+			have, 24 hours a day, 7 days a week.
+
+			<p>Please fill out our contact form or call the office and
+				we will aim to be in touch within two working days.</p>
+		</div>
+
+		<h3>Contact Form</h3>
+		<!-- yet to implement PHP files-->
+		<div class="form">
+			  <form action="action_page.php">
+
+				<label for="fname">First Name</label>
+				<input type="text" id="fname" name="firstname" placeholder="Your first name...">
+
+				<label for="lname">Surname</label>
+				<input type="text" id="lname" name="lastname" placeholder="Your surname name...">
+
+				<label for="lname">Telephone Number</label>
+				<input type="text" id="phone" name="phone" placeholder="Your telephone number...">
+
+				<label for="country">Country</label>
+				<select id="country" name="country">
+				  <option value="england">England</option>
+				  <option value="scotland">Scotland</option>
+				  <option value="wales">Wales</option>
+				  <option value="northernireland">Northern Ireland</option>
+				  <option value="channelislands">Channel Islands</option>
+				</select>
+
+				<label for="subject">How can we help?</label>
+				<textarea id="subject" name="subject" placeholder="Subject..." style="height:200px"></textarea>
+
+				<input type="submit" value="Submit">
+
+			  </form>
+		</div>
+	</aside>
+	</div>
+		<footer>
+		<img src="Images/minilogo.png" alt="footer" class="minilogo">
+		<p>Capstone Toolstone &copy; 2021</p>
+	</footer>
+
+</body>
+</html>
